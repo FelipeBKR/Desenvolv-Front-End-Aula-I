@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONG ResGatos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Usuário da ONG ResGatos</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
+            <div class="logo">&#128062; Voluntários</div>
+            <button class="menu-toggle" id="togglemenu()">☰</button>
+            <ul id="navMenu">
+                <li><a href="index.html" class="active">Início</a></li>
                 <li><a href="projeto.html">Projeto</a></li>
                 <li><a href="cadastro.html">Cadastro</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Salve Vidas, Seja Voluntário</h1>
+            <p>Junte-se conosco na busca de um mundo melhor para os felinos.</p>
+            <a href="cadastro.html" class="btn-primary">Cadastre-se como Voluntário</a>
+        </div>
+    </section>
+
     <main>
         <section>
             <h2>Quem Somos</h2>
@@ -23,12 +35,12 @@
             <img src="imagem/resgato.jpg" alt="Gato de rua" width="450" height="300">
         </section>
 
-        <section>
+        <section class="about">
             <h2>Missão da ONG ResGatos</h2>
             <p>A missão da ONG ResGatos é resgatar, cuidar e encontrar lares para gatos abandonados ou em situação de risco.</p>
         </section>
 
-        <section>
+        <section class="about">
             <h2>Contato com a ONG ResGatos</h2>
             <adress>
                 <p>Email: contato@resgatosong.com</p>
@@ -40,6 +52,7 @@
 
     <footer>
         <p>&copy; 2025 ONG ResGatos. Todos os direitos reservados.</p>
+        <p>O Amor Salva Vidas!</p>
     </footer>
 </body>
 </html>
