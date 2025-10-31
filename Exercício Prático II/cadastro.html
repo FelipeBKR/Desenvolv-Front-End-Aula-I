@@ -27,25 +27,26 @@
 
     <main>
         <form action="#" method="post">
-            <p><label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required></p>
 
-            <p><label for="email">Email:</label>
-            <input type="email" id="email" name="email" required></p>
+            <div><label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required></div>
 
-            <p><label for="telefone">Telefone (formato: (XX) XXXXX-XXXX):</label>
+            <div><label for="email">Email:</label>
+            <input type="email" id="email" name="email" required></div>
+
+            <div><label for="telefone">Telefone (formato: (XX) XXXXX-XXXX):</label>
             <input type="tel" id="telefone" name="telefone"
                 pattern="\(\d{2}\) \d{4,5}-\d{4}"
                 title="Digite o telefone no formato (XX) XXXXX-XXXX"
-                required></p>
+                required></div>
 
-            <p><label for="cpf">CPF (formato: XXX.XXX.XXX-XX):</label>
+            <div><label for="cpf">CPF (formato: XXX.XXX.XXX-XX):</label>
             <input type="text" id="cpf" name="cpf"
                 pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
                 title="Digite o CPF no formato XXX.XXX.XXX-XX"
-                required></p>
+                required></div>
 
-            <p><input type="submit" value="Cadastrar"></p>
+            <div><button type="submit">Cadastrar</button></div>
         </form>
     </main>
     <footer>

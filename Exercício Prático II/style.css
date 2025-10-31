@@ -152,9 +152,47 @@ nav a {
 
 .doar {
     grid-column: span 2;
+    border-radius: 10px;
+    text
     background-color: rgba(164, 197, 221, 0.2);
     padding: 2rem;
     text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    line-height: 2rem;
+    background-color: rgba(164, 197, 221, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    text-align: center; 
+    cursor: pointer;
+    width: 100%;
+    background-color: #1063f1;
+    color: white;
+    border: 1px solid #1063f1;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, textarea, button {
+    padding: 0.5rem 0.5rem;
 }
 
 footer {
