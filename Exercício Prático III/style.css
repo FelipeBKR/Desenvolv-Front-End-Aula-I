@@ -181,6 +181,10 @@ button {
     font-weight: bold;
 }
 
+.menu-toggle {
+    max-width: 2.5rem;;
+}
+
 label, input, textarea {
     display: block;
     width: 100%;
